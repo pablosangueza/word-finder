@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WordFinder.App
+namespace WordFinder.Core
 {
     public class WordFinder : IWordFinder
     {
@@ -39,7 +39,7 @@ namespace WordFinder.App
                               .Take(10)
                               .Select(pair => pair.Key);
         }
-       
+
 
         private bool ExistsInMatrix(string word)
         {

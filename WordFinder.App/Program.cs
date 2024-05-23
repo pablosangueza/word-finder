@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using WordFinder.App;
+using WordFinder.Core;
 
 internal class Program
 {
@@ -16,7 +16,7 @@ internal class Program
         };
         var wordstream = new List<string> { "cold", "wind", "chill", "snow", "cold", "ice" };
 
-        IWordFinder wordFinder = new WordFinder.App.WordFinder(matrix);
+        IWordFinder wordFinder = new WordFinder.Core.WordFinder(matrix);
         
         var foundWords = wordFinder.Find(wordstream);
 
