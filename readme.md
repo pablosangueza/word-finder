@@ -67,5 +67,5 @@ WordFinder is a .NET 8 console application that searches for words in a characte
 
     This will execute all the unit tests in the `WordFinder.Test` project. The test results will be displayed in the terminal.
 
-## Project Structure
+
 
